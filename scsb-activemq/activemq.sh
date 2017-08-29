@@ -201,7 +201,7 @@ if [ "$CONFIG_LOAD" != "yes" ];then
 fi
 
 if [ -z "$ACTIVEMQ_OPTS" ] ; then
-    ACTIVEMQ_OPTS="-Xms1G -Xmx8G"
+    ACTIVEMQ_OPTS="-Xms1G -Xmx1G"
     ACTIVEMQ_OPTS="$ACTIVEMQ_OPTS $ACTIVEMQ_OPTS_MEMORY -Djava.util.logging.config.file=logging.properties -Djava.security.auth.login.config=$ACTIVEMQ_CONF/login.config"
 fi
 
