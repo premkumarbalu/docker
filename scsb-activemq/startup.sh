@@ -29,4 +29,4 @@ fi
 sed -i -e 's@#--replace_user_infos@'"$USERS"'@g' /opt/activemq/conf/jetty-realm.properties
 
 #Start container.
-/opt/activemq/bin/activemq -Xmx8g -Xms256m console
+/opt/activemq/bin/activemq console
