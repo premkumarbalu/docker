@@ -19,5 +19,7 @@ RUN cd /opt && ls -l && ./config.sh ${envVar}
 #Add startup.sh
 COPY startup.sh /opt/startup.sh
 RUN chmod 777 /opt/startup.sh
+RUN chmod 777 /opt/activemq
+
 
 ENTRYPOINT ["/opt/startup.sh"]
