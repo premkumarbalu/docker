@@ -5,7 +5,7 @@ COPY activemq.xml /opt/activemq/conf
 COPY jetty-realm.properties /opt/activemq/conf
 RUN chmod 777 /opt/activemq
 COPY activemq.sh /opt/activemq/bin
-#COPY activemq /opt/activemq/bin
+COPY activemq /opt/activemq/bin
 COPY env /opt/activemq/bin
 COPY env-container /opt/activemq/bin
 COPY config.sh /opt
