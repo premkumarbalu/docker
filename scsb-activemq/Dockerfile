@@ -3,7 +3,7 @@ MAINTAINER HTC ReCAP Support "recap-support@htcindia.com"
 
 COPY activemq.xml /opt/activemq/conf
 COPY jetty-realm.properties /opt/activemq/conf
-RUN chmod 777 /opt/activemq
+RUN chmod 777 /opt/activemq/bin/activemq
 COPY activemq.sh /opt/activemq/bin
 COPY activemq /opt/activemq/bin
 COPY env /opt/activemq/bin
