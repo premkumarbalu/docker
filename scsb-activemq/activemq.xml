@@ -42,7 +42,7 @@
         <destinationPolicy>
             <policyMap>
                 <policyEntries>
-                    <policyEntry queue=">" optimizedDispatch="true" memoryLimit="5gb" producerFlowControl="false" />
+                    <policyEntry queue=">" optimizedDispatch="true" memoryLimit="3gb" producerFlowControl="false" />
                     <policyEntry topic=">">
                         <!-- The constantPendingMessageLimitStrategy is used to prevent
                              slow topic consumers to block producers and affect other consumers
