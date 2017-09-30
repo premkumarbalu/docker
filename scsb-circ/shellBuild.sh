@@ -13,7 +13,7 @@ cd $PROJ_DIR
 git clone https://github.com/premkumarbalu/scsb-circ.git
 # echo $PROJ_DIR_TAG
 cd $PROJ_DIR_TAG
-git checkout SC_Performance
+git checkout SC_Perf-1
 if [ ! -z $1 ] ;then
     git checkout tags/$1
 fi
