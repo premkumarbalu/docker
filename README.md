@@ -11,6 +11,5 @@ In order to build tagged releases of a particular project, run the commanad as f
 Ex - Build scsb-solr-client v0.6.0 version
 sudo docker build --no-cache=true --build-arg TAG='0.6.0' -t scsb-solr-client .
 
-[![BrowserStack](https://drive.google.com/file/d/1Lj9L80lf2V9P5BYNhkq07nT--cIhm9LO/view)](https://www.browserstack.com/)
-[![HTC](https://drive.google.com/file/d/1Lj9L80lf2V9P5BYNhkq07nT--cIhm9LO/view)]()
+[![HTC](https://github.com/premkumarbalu/docker/blob/logo/htc-global-services-squarelogo.png)]()
 
